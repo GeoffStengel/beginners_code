@@ -1,3 +1,4 @@
+/*CSS Style Sheet ATM Its Linked To Your index.html*/
 * {
 	margin: 0;
 	padding: 0;
@@ -20,6 +21,14 @@
     font-family: "Montserrat", sans-serif;
     --transition-speed: 600ms;
 }
+/*Example Using A DIV*/
+.example_div{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 /*Example Using CSS Variable*/
 h1{
     color: var(--accent-color);
@@ -38,8 +47,8 @@ h3{
 /*Example Media Query - Under 900px Below Changes Happen*/
 @media screen and (max-width:900px) {
 h1{
+    /*Example Using RGBA*/
     color: rgb(246, 16, 8);
-}
-
+ }
 }
     
