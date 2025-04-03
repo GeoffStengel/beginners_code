@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+/*These Are CSS Variables Examples Play Around*/
+:root {
+    --primary-color: #003366;
+    --secondary-color: #f9f9f9;
+    --accent-color: rgb(238, 28, 175); 
+    --bkgd-color: #ffffff;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --box-shadow-light: 0 4px 10px rgba(0, 0, 0, 0.1);
+    --text-1: #eaf9fa;
+    --text-2: #555555;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    --transition-speed: 600ms;
+}
+/*Example Using CSS Variable*/
+h1{
+    color: var(--accent-color);
+}
+/*Example Using A Colors Name*/
+h2{
+    color: green;
+}
+/*Example Using HEX Code OR Use RGBA*/
+h3{
+    color: #0bfe68;
+}
+
+
+
+/*Example Media Query - Under 900px Below Changes Happen*/
+@media screen and (max-width:900px) {
+h1{
+    color: rgb(246, 16, 8);
+}
+
+}
+    
