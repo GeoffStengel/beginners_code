@@ -98,7 +98,7 @@ h1{
     justify-content: center;
     align-items: center;
     color: var(--accent-color);
-    box-shadow: 0 0 10px var(--bkgd-color); /*Glow Around The Tab*/
+    box-shadow: 0 0 5px var(--bkgd-color); /*Glow Around The Tab*/
     text-shadow: 1px 1px 1px #02070a87; /*Text Shadow Around Social Text*/
 }
 /*Styles For The Link Part Of The Social Tabs*/
