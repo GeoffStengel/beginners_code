@@ -1,4 +1,4 @@
-/*CSS Style Sheet ATM Its Linked To Your index.html*/
+/*CSS Style Sheet ATM For Animated Link Tree To Your index.html*/
 * {
 	margin: 0;
 	padding: 0;
@@ -22,14 +22,15 @@
     --transition-speed: 600ms;
 }
 html{
+    height: 100%;
     scroll-behavior: smooth;
     overflow-x: hidden;
-    background-color: var(--accent-color);
+    background-image: linear-gradient(var(--accent-color), yellow, white);
     padding: 5px;
 }
 /*Holding All The Grids The Main Wrapper At The Moment  */
 body{
-    max-width: 600px; /*Max Width Of Body Frame*/
+    max-width: 450px; /*Max Width Of Body Frame*/
     height: 98vh;
 	text-align: center;
 	padding: 20px;
@@ -62,6 +63,7 @@ body::-webkit-scrollbar-thumb {
 }
 /*Text Reads (Project Tree) At The Moment*/
 h1{
+    font-size: 28px;
     color: var(--accent-color);
     margin: 5px;
     text-shadow: 1px 1px 1px var(--secondary-color);
@@ -127,7 +129,7 @@ h1{
 @media screen and (max-width:900px) {
 h1{
     /*Proj Tree Text Changes Color At This Screen Size*/
-    color: rgb(246, 16, 8);
+    color: yellow;
  }
 }
     
