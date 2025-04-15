@@ -21,12 +21,22 @@
     font-family: "Montserrat", sans-serif;
     --transition-speed: 600ms;
 }
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
 /*Example Using A DIV*/
-.example_div{
+.wrapper_div{
     width: 500px;
     height: 400px;
     margin: 0 auto;
     text-align: center;
+    align-content: center;
 }
 
 /*Example Using CSS Variable*/
